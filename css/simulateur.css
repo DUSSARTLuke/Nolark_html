@@ -19,7 +19,7 @@ fieldset p {
   text-align: right;
   margin-right: 60px;
 }
-#remuneration #amende #alcoolemie #sanction {
+#remuneration, #amende, #alcoolemie, #sanction {
   color: red;
   text-align: center;
   margin-bottom: 10px;
