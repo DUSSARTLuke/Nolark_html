@@ -20,7 +20,7 @@ MesTestsUnitaires.prototype.testsGetAlcoolemie = function() {
 };
 
 MesTestsUnitaires.prototype.testsGetAmende = function() {
- assertEquals('Moins de 0,8 g/l de sang', 'Minorée : 90 € / Forfaitaire : 135 € /'+
-'Majorée : 375 €', getAmende(0.4));
- assertEquals('A partir de 0,8 g/l', '4500 €', getAmende(0.8));
+ assertEquals('Moins de 0,8 g/l de sang', 'Minoree : 90 euros / Forfaitaire : 135 euros / '+
+'Majoree : 375 euros', getAmende(0.4));
+ assertEquals('A partir de 0,8 g/l', '4500 euros', getAmende(0.8));
 };
