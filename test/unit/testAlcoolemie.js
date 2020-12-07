@@ -24,3 +24,10 @@ MesTestsUnitaires.prototype.testsGetAmende = function() {
 'Majoree : 375 euros', getAmende(0.4));
  assertEquals('A partir de 0,8 g/l', '4500 euros', getAmende(0.8));
 };
+
+MesTestsUnitaires.prototype.testsGetSanction = function() {
+ assertEquals('Moins de 0,8 g/l de sang', '6 points + suspension 3 ans',
+getSanction(0.4));
+ assertEquals('A partir de 0,8 g/l de sang', '6 points + 2 ans de prison + suspension ' +
+'3 ans + stage de sensibilisation', getSanction(0.8));
+};
